@@ -1,0 +1,103 @@
+body {
+    font-family: Segoe UI, Verdana, sans-serif;
+}
+code {
+    background-color: #DDDDDD;
+}
+#Header_Image {
+    width: 400px;
+    height: 200px;
+    padding-left: 200;
+    padding-right: 200;
+}
+#body {
+    padding-left: 7em;
+    padding-right: 7em;
+}
+#scrolltop {
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    width: 100%;
+    text-align: center;
+}
+
+a:active, a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+<!-- An ID can be used only once. tblImg was used 8 times! -->
+p.secret {
+    color: whitesmoke;
+    background-color: white;
+}
+<!-- How to make above work????!!!!!??????!!!!!!!! HTML5 doesn't support the <font> tag. -->
+img.centerimage {
+    display: block;
+    margin: 0 auto;
+}
+.centertext {
+    text-align: center;
+}
+<!-- The below is neccesary. -->
+.navdiv {
+    background-color: #006BB2;
+    text-align: center;
+}
+.navbar {
+    border: 1px solid #006BB2;
+    background-color: #006BB2;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    list-style-type: none;
+    text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.navli {
+    list-style: none;
+    text-align: center;
+}
+#navbtn1 {
+    width: 90px;
+    text-align: center;
+}
+#navbtn2 {
+    width: 150px;
+    text-align: center;
+}
+#navbtn3 {
+    width: 280px;
+    text-align: center;
+}
+#navbtn4 {
+    width: 175px;
+    text-align: center;
+}
+#navbtn5 {
+    width: 100px;
+    text-align: center;
+}
+.navbtn:link, .navbtn:visited {
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #006BB2;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+.navbtn:hover, .navbtn:active {
+    background-color: black;
+    transition: 500ms;
+    text-align: center;
+}
