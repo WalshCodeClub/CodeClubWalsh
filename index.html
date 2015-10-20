@@ -154,8 +154,14 @@
 				<input type="submit" class="assistive-text searchsubmit" value="Go!">
 		<a href="#go" id="trigger-overlay" class="submit">Search</a>
 	</form>
-    <input type="text" class="field searchform-s" name="s" value="" placeholder="Type and hit enter …" style="display: none; visibility: visible;">
-   <a href="#go" id="trigger-overlay" class="submit">Search</a>
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+
+
     
     <h3><a href="#" class="navbtn" id="scrolltop">Scroll To Top</a></h3>
 </body>
