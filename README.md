@@ -8,4 +8,4 @@ An alternative is to look around our code!
 
 Or.... just sit there.... longer....
 
-Ya know what? Fine! Do what ever Github will let you! Have fun! Thanks for reading.
+Ya know what? Fine! Do what ever Github will let you! Have fun! Thanks for reading. :)
