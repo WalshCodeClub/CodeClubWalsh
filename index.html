@@ -60,94 +60,7 @@
 		clear:both;
 	}
  
-.navbar:after {
-    display:block;
-    clear:both;
-}
- 
-/*----- Menu Outline -----*/
-.navdiv {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-}
- 
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Ek Mukta';
-}
- 
-.menu a {
-    transition:all linear 0.15s;
-    color:#919191;
-}
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#be5b70;
-}
- 
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728;
-}
- 
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    width:160%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
-}
+
 </style>
 
     <meta charset="UTF-8">
@@ -164,26 +77,21 @@
 <body>
     <div class="navdiv">
         <!-- Site navigation menu DO NOT CHANGE THIS ONLY TYMMC CAN!-->
-        <nav class="menu">
         <ul class="navbar">
-            <li>
-                <a href="index.html">Home</a>
+            <li class="navli">
+                <a id="navbtn1" class="navbtn" href="index.html">Home</a>
 
-                <a href="http://docs.google.com/forms/d/1EJvZct9BesWPeDK3iIbHFSBv7lZSamk7LPs6xoLdYhA/viewform">Check in</a>
+                <a id="navbtn2" class="navbtn" href="http://docs.google.com/forms/d/1EJvZct9BesWPeDK3iIbHFSBv7lZSamk7LPs6xoLdYhA/viewform">Check in</a>
 
-                <a href="http://www.techyesplease.com/">Back to techyesplease</a>
+                <a id="navbtn3" class="navbtn" href="http://www.techyesplease.com/">Back to techyesplease</a>
 
-                <a href="http://scratch.mit.edu/studios/769894/">Scratch Studio</a>
+                <a id="navbtn4" class="navbtn" href="http://scratch.mit.edu/studios/769894/">Scratch Studio</a>
  
-                <a href="tools-not-working.html" title="This button still in development">Tools</a>
-                <ul class="sub-menu">
-                	<li><a href="devtools.html"></a></li>
-                </ul>
+                <a id="navbtn5" class="navbtn" href="tools-not-working.html" title="This button still in development">Tools</a>
             </li>
             <!-- Do NOT forget to add the li tag -->
             <!-- The title attribute does something very useful. Hover the mouse over the link to find out -->
         </ul>
-        </nav>
     </div>
     <!-- Header Image -->
     <p style="text-align:center">
